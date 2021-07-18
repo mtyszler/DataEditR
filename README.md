@@ -2,6 +2,10 @@
 
 It has some minor adjustments for project specific purposes
 
+*to install*
+
+`remotes::install_github('mtyszler/DataEditR', ref = "develop")`
+
 
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
