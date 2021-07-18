@@ -228,10 +228,16 @@ data_edit <- function(x = NULL,
     useShinyjs(),
     fluidRow(
       column(
-        7,
+        3,
         style = "padding-right: 5px;",
         dataInputUI("input1",
                     cellWidths = c("50%", "50%"))
+
+      ),
+      column(
+        4,
+        style = "padding-left: 5px; margin-top: 35px; color:red",
+        shiny::em("Unsynced changes will be lost if dialog is closed")
       ),
       column(
         5,
