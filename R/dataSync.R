@@ -73,12 +73,12 @@ NULL
 dataSyncUI <- function(id) {
   
   hidden(
-    actionButton(
-      NS(id, "sync"), 
-      label = NULL, 
+    bsButton(
+      NS(id, "sync"),
+      label = NULL,
       icon = icon("sync"),
-      style = "success"
-    )
+      style = "success",
+      type = "action")
   )
   
 }
