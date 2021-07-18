@@ -283,10 +283,10 @@ data_edit <- function(x = NULL,
       addTooltip(session = session,
                  id = "sync",
                  title = "sychronise")
-      show("cut")
-      addTooltip(session = session,
-                 id = "cut",
-                 title = "crop to selection")
+      #show("cut")
+      #addTooltip(session = session,
+      #           id = "cut",
+      #           title = "crop to selection")
     }
     
     # DATA STORAGE
