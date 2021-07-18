@@ -1,3 +1,8 @@
+# This is a fork of https://github.com/DillonHammill/DataEditR
+
+It has some minor adjustments for project specific purposes
+
+
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
