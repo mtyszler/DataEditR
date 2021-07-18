@@ -230,8 +230,8 @@ data_edit <- function(x = NULL,
       column(
         7,
         style = "padding-right: 5px;",
-        #dataInputUI("input1",
-        #            cellWidths = c("50%", "50%"))
+        dataInputUI("input1",
+                    cellWidths = c("50%", "50%"))
       ),
       column(
         5,
@@ -289,7 +289,7 @@ data_edit <- function(x = NULL,
                                   data = data,
                                   read_fun = read_fun,
                                   read_args = read_args,
-                                  hide = hide,
+                                  hide = TRUE,
                                   envir = envir) # search in parent frame
     
     # RESET FILTERS
