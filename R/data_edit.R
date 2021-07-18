@@ -254,6 +254,12 @@ data_edit <- function(x = NULL,
     fluidRow(
       column(
         12,
+        br()
+      )
+    ),
+    fluidRow(
+      column(
+        12,
         dataEditUI("edit1"),
         br()
       )
