@@ -76,7 +76,8 @@ dataSyncUI <- function(id) {
     actionButton(
       NS(id, "sync"), 
       label = NULL, 
-      icon = icon("sync")
+      icon = icon("sync"),
+      style = "success"
     )
   )
   
