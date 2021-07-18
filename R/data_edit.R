@@ -320,7 +320,7 @@ data_edit <- function(x = NULL,
     # DATA SELECT
     data_select <- dataSelectServer("select1",
                                     data = reactive(values$data),
-                                    hide = hide,
+                                    hide = TRUE,
                                     hover_text = "select columns")
     
     # DATA FILTER
