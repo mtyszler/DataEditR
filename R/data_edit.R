@@ -230,8 +230,8 @@ data_edit <- function(x = NULL,
       column(
         7,
         style = "padding-right: 5px;",
-        dataInputUI("input1",
-                    cellWidths = c("50%", "50%"))
+        #dataInputUI("input1",
+        #            cellWidths = c("50%", "50%"))
       ),
       column(
         5,
