@@ -115,9 +115,9 @@ data_format <- function(data,
       data <- as.matrix(data)
     # DATA.FRAME - DIFFERENT COLUMN CLASSES
     } else {
-      for (z in colnames(data)) {
-        data[, z] <- type.convert(data[, z], as.is = !col_factor)
-      }
+      #for (z in colnames(data)) {
+      #  data[, z] <- type.convert(data[, z], as.is = !col_factor)
+      #}
     }
     
   }
